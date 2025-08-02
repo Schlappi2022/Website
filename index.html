@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Willkommen</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Willkommen bei Schlappi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1976d2;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    section {
+      padding: 30px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    section:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      color: #1976d2;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+    a {
+      color: #1976d2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hallo Welt!</h1>
-  <p>Das ist meine erste Website auf GitHub Pages.</p>
+
+  <header>
+    <h1>Willkommen auf meiner Website</h1>
+    <p>Hier findest du Infos über mich, meine Projekte und mehr</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Über mich</h2>
+      <p>Ich bin Schlappi, ein neugieriger Web-Einsteiger mit Spaß an neuen Technologien, Design und kreativen Ideen.</p>
+    </section>
+
+    <section>
+      <h2>Meine Projekte</h2>
+      <ul>
+        <li><strong>Projekt 1:</strong> Portfolio-Seite mit GitHub Pages</li>
+        <li><strong>Projekt 2:</strong> Automatisierung mit Python & APIs</li>
+        <li><strong>Projekt 3:</strong> Smartes Haushaltsbudget mit Excel</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kontakt</h2>
+      <p>Du kannst mich über <a href="mailto:deine.email@example.com">deine.email@example.com</a> erreichen.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Schlappi – Erstellt mit ❤️ und HTML
+  </footer>
+
 </body>
 </html>
